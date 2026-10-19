@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Elurix Rapò",
+    "slug": "elurix-rapo",
+    "scheme": "elurixrapo",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F9F6F0"
+      },
+      "package": "com.elurixtec.elurixrapo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f326753b-2fd4-4880-b220-30e72ea29c0e"
+      }
+    },
+    "owner": "elusmajordany89",
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-image",
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-logo.png",
+          "imageWidth": 260,
+          "resizeMode": "contain",
+          "backgroundColor": "#F9F6F0"
+        }
+      ],
+      "expo-status-bar",
+      "expo-web-browser"
+    ]
+  }
+}
